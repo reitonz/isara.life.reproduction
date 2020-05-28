@@ -1,0 +1,819 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    font-size: 28px;
+}
+li {
+    list-style: none;
+}
+/* Header */
+
+header {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+}
+.header-left {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+.header-left img {
+    width: 16%;
+    height: 50px;
+    margin: 20px 14% 10px;
+    margin-right: 0;
+}
+.header-left p {
+    margin: 20px 0 0;
+    padding-top: 26px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.header-right {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-right2 {
+    display: none;
+}
+.header-button {
+    margin: 0 auto; 
+    margin-top: 3%;
+    background-color: rgb(240, 142, 142);
+    width: 50%;
+    color: white;
+    padding: 2%;
+    border-radius: 30px;
+}
+.header-button:hover {
+    background-color: rgb(238, 95, 95);
+}
+/* Main */
+
+.main-top {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-top p {
+    font-size: 19px;
+}
+.main-one {
+    padding: 85px 0;
+    background-image: url(images/beautiful-autumn-garden-mikulov-castle-600w-1558033706.jpg);
+    background-size: cover;
+}
+.main-one img {
+    width: 70%;
+}
+.main-one p {
+    font-size: 20px;
+}
+.one {
+    background-color: white;
+    width: 28%;
+    margin: 0 auto;
+    padding: 4% 0;
+    opacity: 0.9;
+    border-radius: 30px;
+}
+.main-two {
+    padding: 20px 0 40px; 
+    background-color: rgb(252, 193, 84);
+}
+.main-two p {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.main-two strong {
+    background-color: white;
+    color: red;
+    font-size: 17px;
+    padding: 5px 0;
+}
+.main-button {
+    margin: 0 auto;
+    margin-top: 3%;
+    background-color: rgb(240, 142, 142);
+    width: 73%;
+    color: white;
+    padding: 2%;
+    border-radius: 55px;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.main-button:hover {
+    background-color: rgb(238, 95, 95);
+}
+.main-two h4 {
+    color: white;
+    padding: 10px 0;
+    font-size: 21px;
+}
+.fa-twitter, .fa-thumbs-up {
+    padding-right: 5px;
+}
+.twitter {
+    background-color: rgb(64, 152, 224);
+    padding: 2px 10px;
+    color: white;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.thumbs {
+    background-color: rgb(31, 94, 187);
+    padding: 2px 10px;
+    color: white;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.cea {
+    color: white;
+    background-color: rgb(31, 94, 187);
+    padding: 2px 10px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+/* エンジニア */
+
+.main-t {
+    margin: 50px 0;
+}
+.main-t h1 {
+    padding: 10px;
+}
+.enj {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.enj::before, .enj::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.enj::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+.enj::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+.t-text {
+    margin: 50px 0;
+}
+.t-text span {
+    font-weight: bold;
+    border-bottom: 6px solid orange;
+}
+
+/* ABOUT */
+
+.about {
+    position: relative;
+    background-color: rgb(247, 234, 211);
+    margin-bottom: 60px;
+}
+.about img {
+    width: 100%;
+}
+.circle {
+    position: absolute;
+    top: 163px;
+    left: 47%;
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    margin: 0 auto;
+    line-height: 80px;
+    border-radius: 50%;
+    color: white;
+}
+
+/* Y */
+
+.main-y {
+    background-color: rgb(247, 234, 211);
+    padding-bottom: 40px;
+}
+.y-box {
+    margin: 30px auto;
+    width: 80%;
+    height: 260px;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 10px;
+
+}
+.y-box p {
+    padding-top: 35px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.y-icons {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.y-icon {
+    display: inline-block;
+    padding: 0 15px;
+}
+.y-icon p {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 0;
+}
+
+/* U */
+
+.main-u {
+    background-image: url(images/abstract-futuristic-circuit-board-digital-600w-708494212\ \(1\).jpg);
+    background-size: cover;
+    padding: 50px 0;
+}
+.main-u h1 , .main-u p {
+    color: white;
+    padding: 8px 0;
+}
+.main-u p {
+    font-weight: bold;
+}
+.main-u span{
+    color: orange;
+}
+.u-box {
+    background-color: white;
+    width: 26%;
+    height: 190px;
+    display: inline-block;
+    margin: 15px 10px;
+    border-radius: 5px;
+}
+
+.box-title {
+    background-color: orange;
+    width: 85%;
+    margin: 25px auto;
+    display: inline-block;
+    padding: 1px 0;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.u-box p {
+    color: black;
+    font-weight: normal;
+}
+.u-box .u1 {
+    font-size: 15px;
+}
+.u-blue {
+    padding: 20px 0;
+    background-color: rgb(29, 102, 238);
+    color: white;
+}
+.u-blue h3 {
+    line-height: 47px;
+}
+.u-blue span {
+    color: orange;
+}
+
+/* I */
+
+.main-i {
+    background-color: rgba(252, 251, 249, 0.486);
+}
+.main-i h1 {
+    padding: 60px 0 0;
+}
+.main-i p {
+    padding: 25px 0 40px;
+    font-size: 20px;
+}
+.main-i span {
+    font-size: 15px;
+}
+.i-icon {
+    display: inline-block;
+    padding: 0 10px;
+}
+.i-icon img {
+    width: 90%;
+}
+.main-i strong {
+    display: block;
+    padding: 30px 0;
+}
+
+/* O */
+
+.main-o {
+    background-color: papayawhip;
+    padding: 40px 0;
+
+}
+.main-o .enj p{
+    font-weight: 600;
+    padding: 10px 0;
+}
+.o-images {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+.o-img {
+    width: 30%;
+    text-align: left;
+    padding: 30px 20px;
+}
+.o-img h2 {
+    font-size: 20px;
+    color: rgb(230, 157, 84);
+}
+.o-img p {
+    font-size: 15px;
+}
+.o-img img {
+    width: 100%;
+}
+.o-box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: white;
+    border: 2px solid orange;
+}
+.o-box h1 {
+    color: orange;
+    padding-bottom: 20px;
+}
+.o-box strong {
+    font-size: 20px;
+}
+.o-box p {
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* P */
+
+.main-p {
+    background-image: url(images/beautiful-cosmos-flowers-blooming-garden-600w-797194888.webp);
+    background-size: cover;
+    color: rgb(5, 0, 0);
+    width: 100%;
+    padding: 100px 0 40px; 
+}
+#pass {
+    padding: 30px 0;
+}
+.p-icons {
+   margin: 170px 0 0;
+    flex-wrap: wrap;
+}
+.p-icon {
+    border: 3px solid white;
+    width: 24%;
+    margin: 0 3% 193px;
+    padding: 40px 35px;
+    display: inline-block;
+    position: relative;
+}
+.p-icon p , .p-icon2 p  {
+    text-align: left;
+    padding: 50px 0;
+}
+.p-icon2 {
+    border: 3px solid white;
+    width: 24%;
+    margin: 0 3% ;
+    padding: 40px 35px;
+    display: inline-block;
+    position: relative;
+}
+.p-icon img, .p-icon2 img {
+    border-radius: 50%;
+    position: absolute;
+    top: -169px;
+    left: 90px;
+}
+
+/* A */
+
+.main-a {
+    position: relative;
+    padding: 140px 0 30px;
+    background-color: orange;
+}
+.main-a h1 {
+    color: white;
+}
+.enj2 {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.enj2::before, .enj2::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.enj2::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+.enj2::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+.circle2 {
+    position: absolute;
+    left: 47%;
+    top: 28px; 
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    margin: 0 auto;
+    line-height: 80px;
+    border-radius: 50%;
+    color: orange;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid orange;
+}
+
+/* S */
+
+.main-s small {
+    opacity: 0.7;
+}
+.s-text {
+    margin-bottom: 25px;
+}
+.s-mans {
+    width: 55%;
+    margin: 0 auto;
+}
+.s-man {
+    display: flex;
+    margin: 50px 0;
+    text-align: left;
+}
+.s-man p {
+    font-style: italic;
+    opacity: 0.6;
+    margin-top: 18px;
+}
+.s-man span {
+    text-decoration: underline;
+}
+.s-man img {
+    width: 35%;
+    margin-right: 40px;
+    border: 2px solid orange;
+}
+
+/* D */
+
+.main-d {
+    background-image: url(images/beautiful-autumn-garden-mikulov-castle-600w-1558033706.jpg);
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+.main-d p {
+    font-weight: bold;
+    padding: 10px 0 40px;
+    font-size: 16px;
+}
+.d-boxes {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+.d-box {
+    width: 60%;
+    margin: 0px 30px;
+    border-radius: 10px;
+}
+.d-box h2 {
+    font-size: 23px;
+    padding: 15px 0;
+    background-color: steelblue;
+}
+.d-box ul {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid steelblue;
+}
+.d-box li {
+    padding: 12px 0;
+    border-bottom: 1px dotted grey;
+}
+
+/* F */
+
+.main-f {
+    background-color: rgba(252, 251, 249, 0.486);
+}
+.main-f h1 {
+    padding: 40px 0;
+}
+.main-f .fa-laptop {
+    font-weight: normal;
+    font-size: 24px;
+    padding: 0 5px 0 0;
+}
+.f-boxes {
+    width: 80%;
+    margin: 0 auto;
+}
+.f-box {
+    display: flex;
+    background-color: rgb(247, 234, 220);
+    padding: 20px 3%;
+}
+.f-box-left {
+    width: 20%;
+    padding: 20px 0;
+}
+.f-box-left h3 {
+    padding-top: 20px;
+}
+.f-box-right {
+    text-align: left;
+    width: 80%;
+}
+.f-box-right p {
+    font-size: 16px;
+    padding: 20px 0;
+    font-weight: 800;
+}
+.f-boxes2 {
+    display: none;
+}
+
+/* G */
+
+.main-g {
+    background-image: url(images/beautiful-cosmos-flowers-blooming-garden-600w-797194888.webp);
+    color: rgb(68, 68, 68);
+    text-align: left;
+    padding: 40px;
+}
+.main-g h2 {
+    padding-bottom: 20px;
+}
+.main-g ul {
+    padding-top :20px;
+}
+.main-g li {
+    list-style: inside;
+    padding: 5px 0;
+}
+
+/* H */
+
+.main-h {
+    background-color: rgb(248, 191, 85);
+    padding: 30px 0;
+}
+.main-h span {
+    color: white;
+}
+.h-box {
+    border: 2px solid white;
+    position: relative;
+}
+.h-box {
+    width: 90%;
+    margin: 80px auto 0;
+    padding: 50px 0;
+}
+.h-box h1 {
+    position: absolute;
+    top: -24px;
+    left: 308px;
+    background-color: rgb(248, 191, 85);
+}
+.h-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin: 0 3%;
+}
+.h-circle small {
+    font-size: 14px;
+}
+.h-text {
+    width: 77%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.h-text h2 {
+    color: orange;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.h-box2 {
+    display: none;
+}
+/* I */
+
+.main-j {
+    background-image: url(images/abstract-futuristic-circuit-board-digital-600w-708494212\ \(1\).jpg);
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+.main-j p {
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* K */
+
+.main-k {
+    padding: 30px 0;
+}
+.k-box {
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
+}
+.k-img {
+    width: 50%;
+}
+.k-text {
+    text-align: left;
+    padding-left: 40px;
+}
+
+/* L */
+
+.main-l {
+    background-color: rgb(248, 191, 85);
+}
+.l-box {
+    width: 60%;
+    margin: 0 auto;
+}
+.main-l input {
+    margin: 10px 0;
+    width: 100%;
+    height: 35px;
+    padding: 2px 3px;
+    border-radius: 10px;
+}
+.main-l textarea {
+    width: 100%;
+    padding: 3px;
+    margin: 10px 0;
+    height: 100px;
+}
+.main-l .l-button {
+    color: white;
+    background-color: #da6b64;
+    height: 60px;
+    font-size: 20px;
+    letter-spacing: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* Z */
+
+
+.main-z {
+    padding: 50px 0;
+}
+.menu {
+    width: 80%;
+    margin: 0 auto;
+}
+.menu__item {
+    background: white;
+    color: black;
+    cursor: pointer;
+    display: block;
+    margin: 4px 0;
+    text-align: left;
+    font-size: 20px;
+  }
+  .menu__item__link {
+    color: rgb(0, 0, 0);
+    display: block;
+    line-height: 60px;
+    padding: 0 1rem;
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    border-radius: 5px;
+  }
+  .menu__item__link:after {
+    background: white;
+    content: '+';
+    display: block;
+    font-family: "Font Awesome 5 Free";
+    line-height: 60px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 60px;
+  }
+  .menu__item__link.on:after {
+    content: '-';
+  }
+   
+  .submenu {
+    background: #fff;
+    display: none;
+  }
+  .submenu__item {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+    color: #222;
+    padding: 1rem;
+  }
+
+  /* Footer */
+
+  footer {
+      padding: 30px 0 50px;
+      text-align: center;
+      background-color: rgb(201, 201, 201);
+  }
+  footer small {
+      font-size: 11px;
+  }
+  .last small a {
+      color: rgb(25, 138, 138);
+  }
+  .last a:hover {
+      text-decoration: underline;
+  }
+  footer .last .icons {
+      color: white;
+  }
+
+  .top {
+      display: block;
+      width: 70px;
+      height: 70px;
+      background-color: rgb(201,201,201);
+      position: fixed;
+      bottom: 35px;
+      right: 35px;
+      z-index: 10;
+      font-size: 45px;
+      line-height: 90px;
+  }
